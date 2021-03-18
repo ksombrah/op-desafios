@@ -1,0 +1,10 @@
+Resolução do Desafio 2 Proposto pelo site https://www.osprogramadores.com/
+
+
+Para compilar use:
+
+./autogen.sh
+make
+
+Para executar use:
+./src/desafio5 <arquivo.json>

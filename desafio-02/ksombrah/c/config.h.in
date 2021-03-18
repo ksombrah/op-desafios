@@ -1,0 +1,144 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+
+#ifndef __CONFIG_H__
+#define __CONFIG_H__ 1
+
+#if  defined(__WIN32__) || defined(__WIN__)
+#define NO_LINUX 1
+#include <windows.h>
+#endif
+
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the `bsd' library (-lbsd). */
+#undef HAVE_LIBBSD
+
+/* Define to 1 if you have the `resolv' library (-lresolv). */
+#undef HAVE_LIBRESOLV
+
+/* Define to 1 if you have the file `src/bibliotecas.h'. */
+#undef HAVE_SRC_BIBLIOTECAS_H
+
+/* Define to 1 if you have the file `src/principal.h'. */
+#undef HAVE_SRC_PRINCIPAL_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdio.h> header file. */
+#undef HAVE_STDIO_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
+#undef LT_OBJDIR
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if all of the C90 standard headers exist (not just the ones
+   required in a freestanding environment). This macro is provided for
+   backward compatibility; new code need not use it. */
+#undef STDC_HEADERS
+
+/* Version number of package */
+#undef VERSION
+
+/* Define to `unsigned int' if <sys/types.h> does not define. */
+#undef size_t
+
+
+#ifdef HAVE_IOSTREAM
+# include <iostream>
+#endif
+#ifdef HAVE_STRING
+# include <string>
+#endif
+#ifdef HAVE_FSTREAM
+# include <fstream>
+#endif
+#ifdef HAVE_VECTOR
+# include <vector>
+#endif
+#ifdef HAVE_MEMORY
+# include <memory>
+#endif
+#ifdef HAVE_CTIME
+# include <ctime>
+#endif
+#ifdef HAVE_CSTDIO
+# include <cstdio>
+#endif
+#ifdef HAVE_CSTDLIB
+# include <cstdlib>
+#endif
+#ifdef HAVE_CTYPE_H
+# include <ctype.h>
+#endif
+#ifdef HAVE_LTDL_H
+# include <ltdl.h>
+#endif
+#ifdef HAVE_DLFCN_H
+# include <dlfcn.h>
+#endif
+#ifdef HAVE_STDIO_H
+# include <stdio.h>
+#endif
+#ifdef HAVE_STDLIB_H
+# include <stdlib.h>
+#endif
+#ifdef HAVE_STRING_H
+# include <string.h>
+#endif
+#ifdef HAVE_HPDF_H
+# include <hpdf.h>
+#endif
+#ifdef HAVE_ZLIB_H
+# include <zlib.h>
+#endif
+#ifdef HAVE_CMATH
+# include <cmath>
+#endif
+
+#endif /*__CONFIG_H__*/
+

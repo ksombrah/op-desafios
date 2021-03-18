@@ -1,0 +1,1 @@
+SUBDIRS = $(LIBEX_dir) $(LIBBANCOPG_dir) $(LIBBANCOMY_dir) $(LIBBANCOSL_dir) $(LIBMSSQL_dir) $(LIBHPDF_dir) $(LIBODBC_dir) $(LIBAPDF_dir)

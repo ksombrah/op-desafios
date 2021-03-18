@@ -1,0 +1,7 @@
+jsmn (pronounced like 'jasmine') is a minimalistic JSON parser in C. It can be easily integrated into resource-limited or embedded projects.
+
+You can find more information about JSON format at json.org
+
+Library sources are available at https://github.com/zserge/jsmn
+
+The web page with some information about jsmn can be found at http://zserge.com/jsmn.html

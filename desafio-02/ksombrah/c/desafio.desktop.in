@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Desafio 5
+Name[pt_BR]=Desafio 5
+GenericName=Desafio 5 @PACKAGE_VERSION@
+GenericName[pt_BR]=Desafio 5 @PACKAGE_VERSION@
+Comment=Sistema Desafio 5
+Comment[pt_BR]=Sistema Desafio 5
+Exec=@prefix@/bin/desafio5 %F
+Path=@prefix@
+Terminal=false
+StartupNotify=true
+Icon=@prefix@/img/tux.ico
+Categories=GNOME;Office;Desafio 5

@@ -1,0 +1,5 @@
+# includes
+INCLUIR = $(LIBEX_include) $(LIBBANCOPG_include) $(LIBBANCOMY_include) $(LIBBANCOSL_include) $(LIBMSSQL_include) $(LIBHPDF_include) $(LIBODBC_include) $(LIBAPDF_include)
+
+#libs
+BIBLIOTECA = $(LIBEX_libs) $(LIBBANCOPG_libs) $(LIBBANCOMY_libs) $(LIBBANCOSL_libs) $(LIBMSSQL_libs) $(LIBHPDF_libs) $(LIBODBC_libs) $(LIBAPDF_libs)

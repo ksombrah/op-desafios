@@ -1,0 +1,15 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+	"http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<Menu>
+	<Name>Applications</Name>
+    <Menu>
+		<Name>Office</Name>
+		<Menu>
+			<Name>Desafio 5</Name>
+		  	<Directory>desafio5.directory</Directory>
+		  	<Include>
+				<Filename>desafio5.desktop</Filename>
+		  	</Include>
+		</Menu>
+	</Menu>
+</Menu>
